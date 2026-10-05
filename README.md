@@ -1,8 +1,74 @@
 # Digital marketing links
 
-Chỗ này là link mình thấy đáng mở khi học marketing số. Ghi chú bằng tiếng Việt. Phía trên là thứ đọc được bằng tiếng Việt. Phía dưới là tiếng Anh.
+Chỗ này là link mình thấy đáng mở khi học marketing số. Ghi chú bằng tiếng Việt. Phần skill AI ở trên cùng. Tài liệu tiếng Việt ở ngay dưới. Phần còn lại là tiếng Anh.
 
 Đang kẹt việc nào thì nhảy tới mục đó. Khóa của Google, Meta, HubSpot, Ahrefs, Semrush phần lớn miễn phí. Sách thì mua. Không có link tải lậu.
+
+Phần chính là skill AI và agent, nằm ngay dưới. Khóa và sách ở sau.
+
+## Skill AI và agent
+
+Đây là phần chính của repo. Skill là file cho Claude, Cursor, Codex. Agent là phần mềm để bot chạy việc marketing. Nó soạn bài và kéo số. Quảng cáo chạy tiền thì người phải đọc trước khi bấm. Số sao lấy khoảng tháng 10/2026.
+
+**Marketing Skills.** CRO, câu chữ, SEO, analytics, growth. Khoảng 53 nghìn sao, gần 8 nghìn fork. Bộ skill marketing đang được cài nhiều nhất.
+
+https://github.com/coreyhaines31/marketingskills
+
+**Claude Skills.** Khoảng 28 nghìn sao, gần 4 nghìn fork. Bộ rất lớn, có phần marketing. Không phải bộ chỉ để làm marketing.
+
+https://github.com/alirezarezvani/claude-skills
+
+**Dify.** Chỗ dựng agent: bot nội dung, bot trả lời từ tài liệu, quy trình nhiều bước. Khoảng 158 nghìn sao, khoảng 25 nghìn fork.
+
+https://github.com/langgenius/dify
+
+**n8n MCP.** Để agent tự dựng workflow: form, email, bảng tính, ads. Khoảng 23 nghìn sao, khoảng 3.700 fork. Phần mềm n8n gốc khoảng 200 nghìn sao.
+
+https://github.com/czlonkowski/n8n-mcp
+
+https://github.com/n8n-io/n8n
+
+**Claude SEO.** Technical, schema, local, thương mại điện tử, và phần trang hiện trên AI. Khoảng 18 nghìn sao, gần 2.700 fork.
+
+https://github.com/AgriciDaniel/claude-seo
+
+**GEO SEO Claude.** Chỉnh trang để công cụ tìm kiếm kiểu AI chịu trích. Khoảng 11 nghìn sao, khoảng 1.700 fork.
+
+https://github.com/zubair-trabzada/geo-seo-claude
+
+**Claude Ads.** Soi quảng cáo trên 12 nền tảng, có Google, Meta, TikTok, LinkedIn. Khoảng 9.700 sao, hơn 1.400 fork. Đừng cho nó sửa campaign khi chưa đọc.
+
+https://github.com/AgriciDaniel/claude-ads
+
+**Open SEO MCP.** Skill SEO cộng MCP đọc Search Console và GA4. Khoảng 4.000 sao, khoảng 360 fork. MCP chạy trên máy chủ của Ryze, không phải tự cài.
+
+https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills
+
+**AI Marketing Skills.** Growth, content, SEO, pipeline bán. Khoảng 3.600 sao, gần 700 fork.
+
+https://github.com/ericosiu/ai-marketing-skills
+
+**Marketing skills của Ryze.** 49 skill, kèm MCP Google Ads và Meta Ads. Khoảng 3.500 sao. MCP cũng nằm trên máy chủ của họ.
+
+https://github.com/irinabuht12-oss/marketing-skills
+
+**Aaron Marketing Skills.** Khoảng 120 skill: nội dung, SEO, mạng xã hội, email, ads, influencer. Khoảng 2.900 sao, khoảng 370 fork.
+
+https://github.com/aaron-he-zhu/aaron-marketing-skills
+
+**Goose Skills.** Ads, social, content, tìm khách, SEO. Khoảng 1.200 sao, khoảng 210 fork.
+
+https://github.com/gooseworks-ai/goose-skills
+
+**Marketing Skills, Kostja.** Hơn 160 skill cho SEO, nội dung và kênh. Khoảng 1.000 sao, khoảng 140 fork.
+
+https://github.com/kostja94/marketing-skills
+
+**GTM Agents.** Một bộ agent cho marketing, bán, và giữ khách. Khoảng 410 sao, khoảng 80 fork. Nhỏ hơn các bộ trên.
+
+https://github.com/gtmagents/gtm-agents
+
+Khóa, sách, và phần mềm đo traffic nằm bên dưới. MCP Google Ads và Meta Ads chính hãng vẫn để ở cuối, mục agent cũ.
 
 ## Tiếng Việt
 
@@ -302,9 +368,8 @@ https://github.com/eliasdabbas/advertools
 
 ### Agent và plugin
 
-Skill là file hướng dẫn cho Claude, Cursor, Codex. Plugin và MCP là cầu nối để AI đọc được tài khoản ads, Analytics hoặc Search Console. Nó viết bản nháp và kéo số. Chiến dịch chạy tiền thật thì người vẫn phải đọc trước khi bấm.
+Các bộ skill lớn nằm ở đầu file. Mục này giữ MCP chính hãng và skill nhỏ hơn: LinkedIn, Notfair, Google Ads, Meta Ads, Claude Blog.
 
-Số sao dưới đây lấy khoảng tháng 10/2026, mai sẽ khác.
 
 **Marketing Skills.** Bộ skill được cài nhiều nhất: CRO, câu chữ, SEO, analytics, growth. Khoảng 53 nghìn sao, gần 8 nghìn fork.
 
