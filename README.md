@@ -280,33 +280,87 @@ https://github.com/knadh/listmonk
 
 https://github.com/matomo-org/matomo
 
-**n8n.** Nối các tool với nhau: form, bảng tính, email, ads. Marketer dùng nhiều để đỡ copy số bằng tay.
+**n8n.** Nối các tool với nhau: form, bảng tính, email, ads. Khoảng 200 nghìn sao, hơn 60 nghìn fork. Marketer dùng để đỡ copy số bằng tay, và để gắn MCP.
 
 https://github.com/n8n-io/n8n
+
+**Postiz.** Lên lịch đăng mạng xã hội, có chỗ cho agent soạn và đăng. Khoảng 37 nghìn sao, khoảng 7 nghìn fork.
+
+https://github.com/gitroomhq/postiz-app
+
+**Umami.** Đo traffic, chiến dịch, chuyển đổi. Không cookie. Khoảng 39 nghìn sao, khoảng 8 nghìn fork.
+
+https://github.com/umami-software/umami
+
+**Plausible.** Cùng việc, nhẹ hơn, hay được dùng thay GA cho site nhỏ. Khoảng 29 nghìn sao.
+
+https://github.com/plausible/analytics
 
 **advertools.** Thư viện Python cho người làm SEO và ads: từ khóa, file log, robots.txt, báo cáo.
 
 https://github.com/eliasdabbas/advertools
 
-### Agent
+### Agent và plugin
 
-Đây là skill và repo cho AI làm cùng, không phải giáo trình. Nó viết được bản nháp. Chiến dịch chạy tiền thật thì người vẫn phải đọc.
+Skill là file hướng dẫn cho Claude, Cursor, Codex. Plugin và MCP là cầu nối để AI đọc được tài khoản ads, Analytics hoặc Search Console. Nó viết bản nháp và kéo số. Chiến dịch chạy tiền thật thì người vẫn phải đọc trước khi bấm.
 
-**Marketing Skills.** Bộ skill cho Claude và các agent khác: SEO, ads, email, CRO, analytics. Repo được dùng nhiều nhất mục này, hơn 50 nghìn sao.
+Số sao dưới đây lấy khoảng tháng 10/2026, mai sẽ khác.
+
+**Marketing Skills.** Bộ skill được cài nhiều nhất: CRO, câu chữ, SEO, analytics, growth. Khoảng 53 nghìn sao, gần 8 nghìn fork.
 
 https://github.com/coreyhaines31/marketingskills
 
-**Claude SEO.** Skill soi SEO cho Claude. Đọc skill trước khi cho nó sửa web đang chạy.
+**Claude SEO.** Skill SEO cho Claude Code: technical, schema, local, thương mại điện tử, và phần hiện trên AI. Khoảng 18 nghìn sao, gần 2.700 fork.
 
 https://github.com/AgriciDaniel/claude-seo
 
-**digital-marketing-pro.** Hệ thống mở cho chiến lược, SEO, ads, content, CRM. Dự án đang làm, chưa phải chuẩn ngành.
+**Claude Ads.** Soi quảng cáo trên 12 nền tảng, có Google, Meta, TikTok, LinkedIn. Khoảng 9.700 sao, hơn 1.400 fork. Repo chặn bớt thao tác ghi vào tài khoản. Đọc kỹ trước khi cho nó sửa campaign.
 
-https://github.com/indranilbanerjee/digital-marketing-pro
+https://github.com/AgriciDaniel/claude-ads
 
-**ALwrity.** Nền tảng marketing gắn AI: kế hoạch nội dung, SEO, đăng bài. Cũng là sản phẩm đang xây, không phải sách giáo khoa.
+**LinkedIn Skills.** Viết bài và comment LinkedIn cho đỡ giọng máy. Khoảng 4.100 sao, gần 700 fork.
+
+https://github.com/sergebulaev/linkedin-skills
+
+**Notfair.** Plugin SEO và GEO cho agent, có cả nhánh Google Ads và Meta Ads. Khoảng 3.900 sao.
+
+https://github.com/nowork-studio/notfair-plugin
+
+**AI Marketing Skills.** Workflow của Eric Siu: growth, content, SEO, pipeline bán hàng. Khoảng 3.600 sao, gần 700 fork.
+
+https://github.com/ericosiu/ai-marketing-skills
+
+**Marketing skills của Ryze.** 49 skill miễn phí, kèm MCP Google Ads và Meta Ads. Khoảng 3.500 sao. MCP chạy trên máy chủ của Ryze, không phải tự cài.
+
+https://github.com/irinabuht12-oss/marketing-skills
+
+**MCP gộp của Ryze.** Một đầu mối cho Google Ads, Meta Ads, GA4 và Search Console. Khoảng 3.900 sao. Đăng nhập OAuth, hơn 250 tool, thao tác ghi phải được duyệt.
+
+https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp
+
+**AI Marketing Claude.** 15 skill: audit web, email, ads, lịch nội dung, báo cáo PDF. Khoảng 2.700 sao, hơn 700 fork.
+
+https://github.com/zubair-trabzada/ai-marketing-claude
+
+**Claude Blog.** Skill viết blog, chỉnh cho vừa Google vừa chỗ AI trích dẫn. Khoảng 2.300 sao.
+
+https://github.com/AgriciDaniel/claude-blog
+
+**Google Ads MCP, của Google.** Cầu nối chính hãng để AI đọc dữ liệu Google Ads. Hơn 1.000 sao, khoảng 300 fork.
+
+https://github.com/googleads/google-ads-mcp
+
+**Meta Ads MCP, Pipeboard.** Cầu nối Facebook và Instagram Ads cho Claude, ChatGPT, Cursor. Khoảng 1.300 sao. Có bản chạy sẵn, không bắt buộc tự host.
+
+https://github.com/pipeboard-co/meta-ads-mcp
+
+**ALwrity.** Nền tảng tự host: kế hoạch nội dung, SEO, đăng bài. Khoảng 1.200 sao. Đang xây, chưa phải sách giáo khoa.
 
 https://github.com/ALwrity/ALwrity
+
+**digital-marketing-pro.** Hệ thống mở cho chiến lược, SEO, ads, content, CRM. Gần 850 sao. Cũng là dự án đang làm.
+
+https://github.com/indranilbanerjee/digital-marketing-pro
 
 ### Muốn đào tiếp
 
